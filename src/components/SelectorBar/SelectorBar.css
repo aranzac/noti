@@ -1,0 +1,37 @@
+.SelectorBar{
+
+    /* min-width: 100%; */
+    color: white;
+}
+
+.SelectorBar-nav{
+    margin: 40px 200px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.SelectorBar-nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .SelectorBar-nav li {
+    float: left;
+    min-width: 100px;
+  }
+  
+  .SelectorBar-nav li a {
+    display: block;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    font-family: 'Nunito';font-size: 20px;;
+    padding:14px 16px;
+    text-decoration: none;
+  }
+  
+  .SelectorBar-nav li a:hover, .SelectorBar-nav li a:active{
+    background-color: rgb(228, 228, 228);
+    border-radius: 30px;
+  }

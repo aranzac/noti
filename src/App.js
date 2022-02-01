@@ -1,22 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import SelectorBar from './components/SelectorBar/SelectorBar';
+import Bar from './components/Bar/Bar';
 
-function App() {
+function App(props) {
+  const subject = 'React';
+  console.log(props)
   return (
     <div className="App">
+    <Bar />
+    <SelectorBar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
+{/*         
+        <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* Hola {props.subject} */}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

@@ -1,0 +1,24 @@
+.logo-title{
+  font-family: 'Sovia Billy', sans-serif;
+  font-size: 3.5em;
+}
+
+.Bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(179, 93, 93);
+}
+
+.Bar li {
+  float: left;
+}
+
+.Bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3px 25px;
+  text-decoration: none
+}
